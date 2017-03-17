@@ -1,0 +1,39 @@
+.serverless
+
+
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+
+*.log
+npm-debug.log
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.grunt
+.lock-wscript
+
+**/.idea
+.DS_Store
+.tmp
+.env
+env.js
+env.yml
+env.json
+admin.env
+
