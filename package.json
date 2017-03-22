@@ -1,0 +1,9 @@
+{
+  "name": "docusign-serverless",
+  "version": "1.0.0",
+  "description": "A bunch of function used to monitor docusign",
+  "author": "maximed",
+  "license": "ECL-2.0",
+  "dependencies": {
+  }
+}

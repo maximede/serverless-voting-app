@@ -1,0 +1,4 @@
+[build]
+  base = "result/result-ui"
+  publish= "result/result-ui/dist"
+  command = "npm install && ng build"

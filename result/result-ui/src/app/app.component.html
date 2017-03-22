@@ -1,0 +1,20 @@
+<h1>
+ Cats vs Dogs
+</h1>
+
+
+<div class="progress" style="height: 75px">
+  <div class="progress-bar progress-bar-info" style="width: 60%;line-height: 75px;">
+    <span>Cats : {{voteAPercent}}%</span>
+  </div>
+  <div class="progress-bar progress-bar-success" style="width: 40%;line-height: 75px;">
+    <span>Dogs : {{voteBPercent}}%</span>
+  </div>
+</div>
+<div id="result">
+  <span *ngIf="result.totalCount == 0">No votes yet</span>
+  <span *ngIf="result.totalCount == 1">{{result.totalCount}} vote</span>
+  <span *ngIf="result.totalCount >= 2">{{result.totalCount}} votes</span>
+</div>
+
+

@@ -1,0 +1,9 @@
+{
+  "name": "result",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.9.0",
+    "bluebird": "^3.5.0"
+  }
+}

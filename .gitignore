@@ -6,7 +6,7 @@
 /tmp
 
 # dependencies
-/node_modules
+*/node_modules
 
 # IDEs and editors
 /.idea
@@ -16,7 +16,7 @@
 *.launch
 .settings/
 *.sublime-workspace
-
+*.iml
 
 *.log
 npm-debug.log
