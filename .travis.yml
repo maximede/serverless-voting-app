@@ -1,0 +1,6 @@
+language: node_js
+env:
+  - TEST_DIR=result
+  - TEST_DIR=vote
+  - TEST_DIR=worker
+script: cd $TEST_DIR && npm install && npm test
