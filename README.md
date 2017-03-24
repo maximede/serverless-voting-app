@@ -30,3 +30,5 @@ result : a Node.js lambda to display stats from dynamodb
 vote : a couple of Node.js lambdas to cast a vote to an SNS topic
 
 worker : a Node.js lambda which consumes event from the SNS topic and stores the vote in DynamoDB
+
+![Architecture diagram](architecture.png)
